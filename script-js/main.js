@@ -15,7 +15,7 @@ let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h1');
 
 function setUserName() {
-    let myName = prompt('请输入你的用户名~');
+    let myName = prompt('please input your name~');
     localStorage.setItem('name',myName);
     myHeading.textContent = '[openthecicle] , ' + myName;
 }
