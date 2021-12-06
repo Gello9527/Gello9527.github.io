@@ -10,7 +10,6 @@ myImage.onclick = function () {
 }
 
 
-//获取用户名并表示欢迎！
 let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h1');
 
