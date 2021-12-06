@@ -1,0 +1,44 @@
+html {
+    background-color: #b48e54;
+    /* px 表示 “像素（pixels）”: 基础字号为 14 像素 */
+    font-size: 14px;
+    /* Google fonts 输出的 CSS */
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+body {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #99aa6a;
+    padding: 0 20px 20px 20px;
+    border: 3px solid black;  /*5像素黑边框*/
+}
+
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color:rgb(129, 47, 92);
+    font-size: 60px;
+    text-shadow: 3px 3px 3px black;
+    text-align: center;     
+}
+
+h1:hover {
+    color: rgb(36, 96,131);
+}
+
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+}
+
+
+a,p,li {
+    font-size: 16px;
+    line-height: 150%;   /* 字间距  可以传入不同参数 百分比跟数字之类*/
+    letter-spacing: 0.7px;  /* 行高 */
+}
