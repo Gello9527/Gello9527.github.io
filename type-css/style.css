@@ -11,8 +11,8 @@ body {
     width: 1200px;
     margin: 0 auto;
     background-color: #fcfdf9;
-    padding: 20px 20px 20px 20px;
-    border: 2px solid rgb(212, 83, 83);  /*5像素黑边框*/
+    padding: 0 20px 20px 20px;
+    border: 3px solid rgb(212, 83, 83);  5像素黑边框
 }
 
 
