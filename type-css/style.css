@@ -21,7 +21,7 @@ h1 {
     padding: 20px 0;
     color:rgb(35, 126, 126);
     font-size: 60px;
-    text-shadow: 5px 5px 5px rgb(7, 7, 7);
+    /* text-shadow: 5px 5px 5px rgb(7, 7, 7); */
     text-align: left;     
 }
 
