@@ -12,7 +12,7 @@ body {
     margin: 0 auto;
     background-color: #fcfdf9;
     padding: 0 20px 20px 20px;
-    border: 3px solid rgb(212, 83, 83);  5像素黑边框
+    border: 3px solid rgb(212, 83, 83);  /*5像素黑边框*/
 }
 
 
@@ -24,11 +24,6 @@ h1 {
     text-shadow: 5px 5px 5px rgb(7, 7, 7);
     text-align: left;     
 }
-
-/* h1:hover {
-    color: rgb(36, 96,131);
-} */
-
 
 img {
     display: block;
