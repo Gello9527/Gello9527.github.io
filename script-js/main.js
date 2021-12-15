@@ -16,14 +16,14 @@ let myHeading = document.querySelector('h1');
 function setUserName() {
     let myName = prompt('please input your name~');
     localStorage.setItem('name',myName);
-    myHeading.textContent = '[openthecicle] , ' + myName;
+    myHeading.textContent = '[opencc] , ' + myName;
 }
 
 if(!localStorage.getItem('name')){
     setUserName();
 }else {
     let storedName = localStorage.getItem('name');
-    myHeading.textContent = '[openthecicle] , ' + storedName;
+    myHeading.textContent = '[opencc] , ' + storedName;
 }
 
 myButton.onclick = function() {
