@@ -1,5 +1,5 @@
 html {
-    background-color: #80abd3;
+    background-color: #ffffff;
     /* px 表示 “像素（pixels）”: 基础字号为 14 像素 */
     font-size: 14px;
     /* Google fonts 输出的 CSS */
@@ -11,17 +11,17 @@ body {
     width: 1200px;
     margin: 0 auto;
     background-color: #fcfdf9;
-    padding: 0 20px 20px 20px;
-    border: 2px solid black;  /*5像素黑边框*/
+    padding: 20px 20px 20px 20px;
+    border: 2px solid rgb(212, 83, 83);  /*5像素黑边框*/
 }
 
 
 h1 {
     margin: 0;
     padding: 20px 0;
-    color:rgb(199, 105, 157);
+    color:rgb(35, 126, 126);
     font-size: 60px;
-    text-shadow: 3px 3px 3px black;
+    text-shadow: 5px 5px 5px rgb(7, 7, 7);
     text-align: left;     
 }
 
@@ -32,7 +32,7 @@ h1 {
 
 img {
     display: block;
-    margin: 0 auto;
+    margin: 0 ;
     width: 40%;
 }
 
